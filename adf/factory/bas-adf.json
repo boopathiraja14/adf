@@ -1,0 +1,9 @@
+{
+	"name": "bas-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7bca96ab-4bc4-461c-8cd7-9f1e97399eb5",
+		"tenantId": "e3fb8a5b-5234-4f71-9ac7-9467a9c9e191"
+	}
+}
