@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Sftp2'"
 		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"type": "string",
+			"defaultValue": "https://staging1bas.blob.core.windows.net/"
+		},
 		"Sftp1_properties_typeProperties_host": {
 			"type": "string",
 			"defaultValue": "sftpfolder1.blob.core.windows.net"
@@ -30,10 +34,6 @@
 		"Sftp2_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "sftpfolder1.sftp.bas14"
-		},
-		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
-			"type": "string",
-			"defaultValue": "https://staging1bas.blob.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -68,6 +68,9 @@
 					"Sftp2_password": {
 						"value": "[parameters('Sftp2_password')]"
 					},
+					"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+						"value": "[parameters('AzureBlobStorage1_properties_typeProperties_serviceEndpoint')]"
+					},
 					"Sftp1_properties_typeProperties_host": {
 						"value": "[parameters('Sftp1_properties_typeProperties_host')]"
 					},
@@ -79,9 +82,6 @@
 					},
 					"Sftp2_properties_typeProperties_userName": {
 						"value": "[parameters('Sftp2_properties_typeProperties_userName')]"
-					},
-					"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
-						"value": "[parameters('AzureBlobStorage1_properties_typeProperties_serviceEndpoint')]"
 					}
 				}
 			},

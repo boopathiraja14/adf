@@ -11,6 +11,9 @@
 		"Sftp2_password": {
 			"value": ""
 		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://staging1bas.blob.core.windows.net/"
+		},
 		"Sftp1_properties_typeProperties_host": {
 			"value": "sftpfolder1.blob.core.windows.net"
 		},
@@ -22,9 +25,6 @@
 		},
 		"Sftp2_properties_typeProperties_userName": {
 			"value": "sftpfolder1.sftp.bas14"
-		},
-		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
-			"value": "https://staging1bas.blob.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
