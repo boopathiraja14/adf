@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "test",
-				"container": "landing"
+				"container": "staging1bas"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
