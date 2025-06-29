@@ -160,8 +160,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "SftpLocation",
-						"fileName": "*",
-						"folderPath": "/sftp"
+						"fileName": "test.csv",
+						"folderPath": "/landing"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -188,8 +188,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"folderPath": "test",
-						"container": "landing"
+						"container": "staging1bas"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
