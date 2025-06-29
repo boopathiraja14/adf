@@ -11,6 +11,9 @@
 		"Sftp2_password": {
 			"value": ""
 		},
+		"sinkloc_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
 			"value": "https://staging1bas.blob.core.windows.net/"
 		},

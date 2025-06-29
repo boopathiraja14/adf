@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Sftp2'"
 		},
+		"sinkloc_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'sinkloc'"
+		},
 		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
 			"type": "string",
 			"defaultValue": "https://staging1bas.blob.core.windows.net/"
@@ -67,6 +71,9 @@
 					},
 					"Sftp2_password": {
 						"value": "[parameters('Sftp2_password')]"
+					},
+					"sinkloc_connectionString": {
+						"value": "[parameters('sinkloc_connectionString')]"
 					},
 					"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
 						"value": "[parameters('AzureBlobStorage1_properties_typeProperties_serviceEndpoint')]"
