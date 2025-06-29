@@ -188,7 +188,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"container": "staging1bas"
+						"container": "landing"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
